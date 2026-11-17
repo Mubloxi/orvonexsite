@@ -1,0 +1,524 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="icon" href="images/Logo.png">
+    <meta name="description" content="Orvonex Events - A competitive Minecraft events network.">
+
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Orvonex Events | Home</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="menu-mobile">
+            <a href="index.html">
+                <div class="logo">
+                    <img src="images/Orvonex_Logo.png" alt="Orvonex logo" class="logo-img">
+                </div>
+            </a>
+            <div class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+        <div class="links">
+            <a href="index.html" class="link active">
+                <i class="fa-solid fa-home"></i> Home
+            </a>
+            <a href="#events" class="link">
+                <i class="fa-solid fa-calendar-days"></i> Events
+            </a>
+            <a href="event-archive.html" class="link">
+                <i class="fa-solid fa-images"></i> Event Archive
+            </a>
+            <a href="rules.html" class="link">
+                <i class="fa-solid fa-scroll"></i> Rules
+            </a>
+            <a href="admin-team.html" class="link">
+                <i class="fa-solid fa-shield"></i> Admin Team
+            </a>
+            <a href="contact.html" class="link">
+                <i class="fa-solid fa-envelope"></i> Contact
+            </a>
+        </div>
+    </div>
+
+    <section id="header" style="background: url('images/header-background.jpg') center/cover; position: relative; display: flex; align-items: center; height: 100vh;">
+        <video class="header-background-video" autoplay muted loop playsinline poster="images/header-background.jpg" aria-hidden="true">
+            <source src="videos/header-background-video.mp4" type="video/mp4">
+        </video>
+        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.62); z-index: 1;"></div>
+        
+        <div class="content hero-content" style="position: relative; z-index: 2; padding: 0 150px; width: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
+            <img src="images/orvonex_event.png" alt="Orvonex Events logo" class="logo-img logo-img-header" style="width: min(460px, 86vw); margin-bottom: 24px; transition: all 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+
+            <p class="server-description" style="max-width: 800px; font-size: 1.1rem; line-height: 1.8; color: var(--description-color); margin-bottom: 24px;">
+                Orvonex Events is a competitive Minecraft events server dedicated to bringing you the most intense experiences.
+                From Civilizations events to Hunger Games and largescale survival challenges.<br>
+            </p>
+
+            <a href="https://discord.gg/vZqpkRBcTK" target="_blank" rel="noopener noreferrer" class="hero-discord">
+                <i class="fa-brands fa-discord"></i>
+                <span>Join Discord</span>
+            </a>
+        </div>
+    </section>
+
+    <section id="events" class="events-section">
+        <div class="content">
+            <div class="events-heading">
+                <p class="eyebrow">Event Calendar</p>
+                <h2>Upcoming &amp; Future Events</h2>
+                <p>Official event dates, session times, teams, and map previews. Join Discord for signups and updates.</p>
+            </div>
+
+            <div class="events-layout">
+                <article class="featured-event">
+                    <div class="event-map">
+                        <img src="images/event_1.png" alt="Map preview for the 4 Island Civilization Event">
+                    </div>
+                    <div class="event-info">
+                        <div class="event-topline">
+                            <span class="event-type">Civilization Event</span>
+                            <span class="event-date-pill">May 8-11, 2026</span>
+                        </div>
+                        <h3>4 Island 100 Player Civilization Event</h3>
+                        <div class="event-meta">
+                            <span><i class="fa-solid fa-calendar-days"></i> May 8-11, 2026</span>
+                            <span><i class="fa-solid fa-clock"></i> 5:00 PM - 10:00 PM each day</span>
+                            <span><i class="fa-solid fa-users"></i> 4 teams, 4 islands, 100 players</span>
+                        </div>
+                        <p class="event-summary">
+                            Four teams spawn on four separate islands, each fighting to build the strongest civilization and claim the title of Top Island.
+                        </p>
+                        <div class="team-list" aria-label="Event teams">
+                            <span class="team blue">Blue</span>
+                            <span class="team red">Red</span>
+                            <span class="team yellow">Yellow</span>
+                            <span class="team green">Green</span>
+                        </div>
+                        <div class="event-rules">
+                            <p>Each island has a Core, your team's life source. Defend it, protect it, and keep your civilization alive.</p>
+                            <p>Players automatically respawn unless their Core is destroyed. Once that happens, every death matters.</p>
+                            <p>Build, defend, raid, and outsmart the other islands in a full team strategy battle.</p>
+                            <p>Recording the event is appreciated. Send POVs through Discord after the sessions.</p>
+                        </div>
+                        <a href="https://discord.gg/vZqpkRBcTK" target="_blank" rel="noopener noreferrer" class="event-discord">
+                            <i class="fa-brands fa-discord"></i>
+                            Join Discord
+                        </a>
+                    </div>
+                </article>
+
+                <aside class="future-events" aria-label="Future events">
+                    <p class="eyebrow">Future Events</p>
+                    <h3>Next Dates</h3>
+                    <div class="future-list">
+                        <div class="future-row">
+                            <span>Dawn of Two Empires</span>
+                            <p>May 25-30, 2026. Two islands, two teams, 100 players, with prep days before war begins.</p>
+                        </div>
+                        <div class="future-row">
+                            <span>More Events Soon</span>
+                            <p>Future civilization, survival, and minigame events will be announced through Discord.</p>
+                        </div>
+                    </div>
+                    <a href="https://discord.gg/vZqpkRBcTK" target="_blank" rel="noopener noreferrer" class="archive-link">
+                        <i class="fa-brands fa-discord"></i>
+                        Join Discord
+                    </a>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="content" style="display: grid; grid-template-columns: 1fr 1fr; gap: 50px; align-items: center;">
+            <div class="left" style="animation: fadeInLeft 0.6s ease 0.2s both;">
+                <h2 class="section-title" style="font-size: 2.5rem; font-weight: 900; margin-bottom: 30px;">What is <span style="color: var(--main-color);">Orvonex?</span></h2>
+                <p class="about-us" style="font-size: 1.1rem; line-height: 1.8; color: var(--description-color);">Orvonex Events is a competitive Minecraft events server dedicated to bringing you the most intense experiences.
+                From Civilizations events to Hunger Games and large-scale survival challenges. Do you have what it takes to survive the events? Join the community today to secure your spot in our next major event.
+                </p>
+            </div>
+
+            <div class="right" style="position: relative; height: 350px; animation: fadeInRight 0.6s ease 0.2s both;">
+                <img src="images/about-section-person-image.png" alt="Minecraft person 1" style="position: absolute; top: 0; left: 0; max-height: 300px; animation: float 6s infinite ease-in-out;">
+                <img src="images/about-section-person-image-2.png" alt="Minecraft person 2" style="position: absolute; bottom: 0; right: 0; max-height: 300px; animation: float 6s infinite ease-in-out; animation-delay: 3s;">
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="footer-credit">
+            <p class="copyright"><i class="fa-copyright"></i> 2026 <span class="server-name-footer">Orvonex Events</span>.</p>
+            <p class="creator-line">Coded by <a href="https://www.youtube.com/@Mubloxi" target="_blank" rel="noopener noreferrer" class="creator-link"><i class="fa-solid fa-code"></i> Mu_bloxi</a></p>
+            <a href="privacy-policy.html" class="footer-policy">Privacy Policy</a>
+        </div>
+        <div class="social-links">
+            <a href="https://discord.gg/vZqpkRBcTK" class="link discord-link-footer" title="Join our Discord">
+                <i class="fa-brands fa-discord"></i>
+            </a>
+            <a href="https://www.youtube.com/@Mubloxi" target="_blank" rel="noopener noreferrer" class="link youtube-link-footer" title="Mu_bloxi on YouTube">
+                <i class="fa-brands fa-youtube"></i>
+            </a>
+            <a href="https://modrinth.com/user/Mu_bloxi" target="_blank" rel="noopener noreferrer" class="link modrinth-link-footer" title="Mu_bloxi on Modrinth">
+                <img src="images/modrinth.svg" alt="Modrinth">
+            </a>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <style>
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+            100% { transform: translateY(0px); }
+        }
+
+        @keyframes fadeInLeft {
+            from { opacity: 0; transform: translateX(-30px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+
+        @keyframes fadeInRight {
+            from { opacity: 0; transform: translateX(30px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+
+        .events-section {
+            background: #101820;
+        }
+
+        .hero-discord {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            min-height: 58px;
+            padding: 0 24px;
+            border: 2px solid var(--main-color);
+            border-radius: 8px;
+            background: rgba(255, 42, 42, 0.14);
+            color: var(--white-color);
+            font-size: 18px;
+            font-weight: 900;
+            text-decoration: none;
+            backdrop-filter: blur(10px);
+        }
+
+        .hero-discord i {
+            color: var(--main-color);
+            font-size: 28px;
+        }
+
+        .hero-discord:hover,
+        .hero-discord:focus-visible {
+            background: var(--main-color);
+            transform: translateY(-3px);
+        }
+
+        .hero-discord:hover i,
+        .hero-discord:focus-visible i {
+            color: var(--white-color);
+        }
+
+        .events-heading {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            max-width: 820px;
+            margin-bottom: 34px;
+        }
+
+        .events-heading .eyebrow,
+        .future-events .eyebrow {
+            color: var(--main-color);
+            font-size: 13px;
+            font-weight: 900;
+            letter-spacing: 0;
+            text-transform: uppercase;
+        }
+
+        .events-heading h2 {
+            color: var(--white-color);
+            font-size: 2.5rem;
+            font-weight: 900;
+        }
+
+        .events-heading p:not(.eyebrow) {
+            color: var(--description-color);
+            font-size: 1.05rem;
+            line-height: 1.7;
+        }
+
+        .events-layout {
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) 330px;
+            gap: 28px;
+            align-items: stretch;
+        }
+
+        .featured-event,
+        .future-events {
+            border: 1px solid rgba(255, 42, 42, 0.24);
+            border-radius: 8px;
+            background: rgba(255, 42, 42, 0.08);
+            overflow: hidden;
+        }
+
+        .featured-event {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .event-map {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: min(100%, 760px);
+            margin: 24px auto 0;
+            aspect-ratio: 16 / 10;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 8px;
+            background: #0b1218;
+            overflow: hidden;
+        }
+
+        .event-map img {
+            width: 100%;
+            height: auto;
+            display: block;
+            object-fit: contain;
+        }
+
+        .event-info {
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+            width: 100%;
+            padding: 30px;
+        }
+
+        .event-topline,
+        .event-meta,
+        .team-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .event-type,
+        .event-date-pill {
+            display: inline-flex;
+            align-items: center;
+            min-height: 32px;
+            padding: 0 12px;
+            border-radius: 5px;
+            font-size: 13px;
+            font-weight: 900;
+            text-transform: uppercase;
+        }
+
+        .event-type {
+            color: var(--white-color);
+            background: var(--main-color);
+        }
+
+        .event-date-pill {
+            color: var(--description-color);
+            border: 1px solid rgba(255, 255, 255, 0.14);
+            background: rgba(15, 20, 25, 0.72);
+        }
+
+        .event-info h3,
+        .future-events h3 {
+            color: var(--white-color);
+            font-size: 2rem;
+            font-weight: 900;
+            line-height: 1.15;
+        }
+
+        .event-meta span {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--description-color);
+            font-size: 14px;
+            font-weight: 700;
+        }
+
+        .event-meta i {
+            color: var(--main-color);
+        }
+
+        .event-summary,
+        .event-rules p,
+        .future-row p {
+            color: var(--description-color);
+            line-height: 1.7;
+        }
+
+        .team {
+            min-width: 82px;
+            padding: 9px 12px;
+            border-radius: 5px;
+            color: #ffffff;
+            font-size: 14px;
+            font-weight: 900;
+            text-align: center;
+        }
+
+        .team.blue { background: #2563eb; }
+        .team.red { background: #dc2626; }
+        .team.yellow { background: #ca8a04; }
+        .team.green { background: #16a34a; }
+
+        .event-rules {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            padding-top: 2px;
+        }
+
+        .event-discord {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            width: fit-content;
+            min-height: 44px;
+            margin-top: auto;
+            padding: 0 18px;
+            border: 1px solid var(--main-color);
+            border-radius: 6px;
+            background: var(--main-color);
+            color: var(--white-color);
+            font-weight: 900;
+            text-decoration: none;
+        }
+
+        .event-discord:hover,
+        .event-discord:focus-visible {
+            transform: translateY(-2px);
+            background: #d91f1f;
+        }
+
+        .future-events {
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+            padding: 26px;
+        }
+
+        .archive-link {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            min-height: 44px;
+            padding: 0 18px;
+            border: 1px solid var(--main-color);
+            border-radius: 6px;
+            background: rgba(255, 42, 42, 0.12);
+            color: var(--white-color);
+            font-weight: 900;
+            text-decoration: none;
+        }
+
+        .archive-link:hover,
+        .archive-link:focus-visible {
+            background: var(--main-color);
+            transform: translateY(-2px);
+        }
+
+        .future-list {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .future-row {
+            display: flex;
+            flex-direction: column;
+            gap: 7px;
+            padding: 18px 0;
+            border-top: 1px solid rgba(255, 255, 255, 0.12);
+        }
+
+        .future-row span {
+            color: var(--white-color);
+            font-size: 16px;
+            font-weight: 900;
+        }
+
+        @media screen and (max-width: 1024px) {
+            #header .content {
+                flex-direction: column;
+                padding: 100px 60px !important;
+                justify-content: center !important;
+                gap: 35px;
+            }
+
+            #header .content .left {
+                max-width: 100% !important;
+                text-align: center;
+            }
+
+            #header .content .right {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+            }
+
+            .logo-img-header {
+                max-width: min(320px, 80vw) !important;
+            }
+
+            .events-layout {
+                grid-template-columns: 1fr;
+            }
+
+            .event-map {
+                width: 100%;
+                margin-top: 0;
+            }
+        }
+
+        @media screen and (max-width: 640px) {
+            #header .content {
+                padding: 60px 20px !important;
+            }
+
+            .server-name p {
+                font-size: 1.5rem !important;
+            }
+
+            .server-description {
+                font-size: 0.95rem !important;
+            }
+
+            .events-heading h2,
+            .event-info h3 {
+                font-size: 1.8rem;
+            }
+
+            .event-info,
+            .future-events {
+                padding: 22px;
+            }
+
+            .event-map {
+                aspect-ratio: 16 / 10;
+            }
+
+            .team {
+                flex: 1 1 120px;
+            }
+        }
+    </style>
+</body>
+</html>

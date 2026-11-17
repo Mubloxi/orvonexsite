@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="icon" href="images/Logo.png">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/pages/admin-team.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <title>Orvonex Events | Admin-Team</title>
+</head>
+<body>
+  <div class="navbar">
+    <div class="menu-mobile">
+      <a href="index.html">
+        <div class="logo">
+          <img src="images/Orvonex_Logo.png" alt="Orvonex logo" class="logo-img">
+        </div>
+      </a>
+      <div class="hamburger">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </div>
+    <div class="links">
+      <a href="index.html" class="link">
+        <i class="fa-solid fa-home"></i> Home
+      </a>
+      <a href="index.html#events" class="link">
+        <i class="fa-solid fa-calendar-days"></i> Events
+      </a>
+      <a href="event-archive.html" class="link">
+        <i class="fa-solid fa-images"></i> Event Archive
+      </a>
+      <a href="rules.html" class="link">
+        <i class="fa-solid fa-scroll"></i> Rules
+      </a>
+      <a href="admin-team.html" class="link active">
+        <i class="fa-solid fa-shield"></i> Admin Team
+      </a>
+      <a href="contact.html" class="link">
+        <i class="fa-solid fa-envelope"></i> Contact
+      </a>
+    </div>
+  </div>
+
+  <section id="header" style="background: url('images/header-background.jpg') center/cover; position: relative; height: 50vh; display: flex; align-items: center; justify-content: center;">
+    <video class="header-background-video" autoplay muted loop playsinline poster="images/header-background.jpg" aria-hidden="true">
+      <source src="videos/header-background-video.mp4" type="video/mp4">
+    </video>
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.62); z-index: 1;"></div>
+    
+    <div class="content" style="position: relative; z-index: 2; text-align: center; display: flex; flex-direction: column; align-items: center;">
+      <div class="info">
+        <img src="images/orvonex_event.png" alt="Orvonex Events logo" style="max-width: 300px; display: block; margin: 0 auto 15px auto; transition: all 0.2s;">
+        <h1 class="title" style="font-size: 3rem; margin-top: 20px; font-weight: 900;">The <span style="color: var(--main-color);">Architects</span></h1>
+      </div>
+      <p class="description" style="font-size: 1.2rem; color: var(--description-color); margin-top: 10px;">
+        Meet the team forging the legacy of Orvonex.
+      </p>
+    </div>
+  </section>
+
+  <section id="admin-team">
+    <div class="content">
+      <div class="team-toolbar" aria-live="polite">
+        <div>
+          <p class="eyebrow">Orvonex Team</p>
+          <h2 id="community-count-title">Community Members</h2>
+        </div>
+        <div class="team-actions">
+          <span id="staff-count">0 community members</span>
+          <button id="refresh-skins" type="button">
+            <i class="fa-solid fa-rotate-right"></i>
+            Refresh skins
+          </button>
+        </div>
+      </div>
+      <p id="skin-load-status" class="team-status"></p>
+      <div class="at-content" aria-live="polite"></div>
+    </div>
+  </section>
+
+  <footer id="footer">
+    <div class="footer-credit">
+      <p class="copyright"><i class="fa-copyright"></i> 2026 <span class="server-name-footer">Orvonex Events</span>.</p>
+      <p class="creator-line">Crafted by <a href="https://www.youtube.com/@Mubloxi" target="_blank" rel="noopener noreferrer" class="creator-link"><i class="fa-solid fa-code"></i> Mu_bloxi</a></p>
+      <a href="privacy-policy.html" class="footer-policy">Privacy Policy</a>
+    </div>
+    <div class="social-links">
+      <a href="https://discord.gg/vZqpkRBcTK" class="link discord-link-footer" title="Join our Discord"><i class="fa-brands fa-discord"></i></a>
+      <a href="https://www.youtube.com/@Mubloxi" target="_blank" rel="noopener noreferrer" class="link youtube-link-footer" title="Mu_bloxi on YouTube"><i class="fa-brands fa-youtube"></i></a>
+      <a href="https://modrinth.com/user/Mu_bloxi" target="_blank" rel="noopener noreferrer" class="link modrinth-link-footer" title="Mu_bloxi on Modrinth"><img src="images/modrinth.svg" alt="Modrinth"></a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/skinview3d@3.4.1/bundles/skinview3d.bundle.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

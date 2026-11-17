@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="icon" href="images/Logo.png">
+  <meta name="description" content="Orvonex Events archive with photos from past events.">
+
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/pages/event-archive.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <title>Orvonex Events | Event Archive</title>
+</head>
+<body>
+  <div class="navbar">
+    <div class="menu-mobile">
+      <a href="index.html">
+        <div class="logo">
+          <img src="images/Orvonex_Logo.png" alt="Orvonex logo" class="logo-img">
+        </div>
+      </a>
+      <div class="hamburger">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </div>
+    <div class="links">
+      <a href="index.html" class="link">
+        <i class="fa-solid fa-home"></i> Home
+      </a>
+      <a href="index.html#events" class="link">
+        <i class="fa-solid fa-calendar-days"></i> Events
+      </a>
+      <a href="event-archive.html" class="link active">
+        <i class="fa-solid fa-images"></i> Event Archive
+      </a>
+      <a href="rules.html" class="link">
+        <i class="fa-solid fa-scroll"></i> Rules
+      </a>
+      <a href="admin-team.html" class="link">
+        <i class="fa-solid fa-shield"></i> Admin Team
+      </a>
+      <a href="contact.html" class="link">
+        <i class="fa-solid fa-envelope"></i> Contact
+      </a>
+    </div>
+  </div>
+
+  <section id="header" style="background: url('images/header-background.jpg') center/cover; position: relative; height: 48vh; display: flex; align-items: center; justify-content: center;">
+    <video class="header-background-video" autoplay muted loop playsinline poster="images/header-background.jpg" aria-hidden="true">
+      <source src="videos/header-background-video.mp4" type="video/mp4">
+    </video>
+    <div style="position: absolute; inset: 0; background: rgba(0,0,0,0.62); z-index: 1;"></div>
+    <div class="content" style="position: relative; z-index: 2; text-align: center; display: flex; flex-direction: column; align-items: center; padding: 0 30px;">
+      <img src="images/orvonex_event.png" alt="Orvonex Events logo" style="max-width: 300px; display: block; margin: 0 auto 18px auto;">
+      <h1 class="title" style="font-size: 3rem; font-weight: 900;">Event <span style="color: var(--main-color);">Archive</span></h1>
+      <p class="description" style="font-size: 1.1rem; color: var(--description-color); margin-top: 10px;">Photos from completed Orvonex events.</p>
+    </div>
+  </section>
+
+  <section id="archive-intro">
+    <div class="content">
+      <article class="archive-hero">
+        <img src="images/event_1.png" alt="4 Island Civilization event map">
+        <div class="archive-hero-info">
+          <p class="archive-eyebrow">Past Event</p>
+          <h2>4 Island 100 Player Civilization Event</h2>
+          <div class="archive-meta">
+            <span><i class="fa-solid fa-calendar-days"></i> May 8-11, 2026</span>
+            <span><i class="fa-solid fa-clock"></i> 5:00 PM - 10:00 PM</span>
+            <span><i class="fa-solid fa-users"></i> 4 islands, 100 players</span>
+            <span><i class="fa-solid fa-images"></i> <strong data-total-photo-count>85 archived photos</strong></span>
+          </div>
+          <div class="archive-teams">
+            <span class="blue">Blue</span>
+            <span class="red">Red</span>
+            <span class="yellow">Yellow</span>
+            <span class="green">Green</span>
+          </div>
+          <p>Four civilizations fought across separate islands, building defenses, raiding enemies, and pushing for the title of Top Island.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="event-archive">
+    <div class="content">
+      <article class="archive-day">
+        <div class="archive-day-heading">
+          <h3>Day 1 Photos</h3>
+          <span data-photo-count="day-1">48 photos</span>
+        </div>
+        <p>Opening builds, early scouting, and the first big civilization moments.</p>
+        <div class="photo-grid" data-photo-gallery="day-1" aria-label="Day 1 event photos"></div>
+      </article>
+
+      <article class="archive-day">
+        <div class="archive-day-heading">
+          <h3>Day 2 Photos</h3>
+          <span data-photo-count="day-2">26 photos</span>
+        </div>
+        <p>More bases, movement between teams, and the event starting to get loud.</p>
+        <div class="photo-grid" data-photo-gallery="day-2" aria-label="Day 2 event photos"></div>
+      </article>
+
+      <article class="archive-day">
+        <div class="archive-day-heading">
+          <h3>Day 3 Photos</h3>
+          <span data-photo-count="day-3">11 photos</span>
+        </div>
+        <p>Late event pressure, bigger builds, and the final archived screenshots.</p>
+        <div class="photo-grid" data-photo-gallery="day-3" aria-label="Day 3 event photos"></div>
+      </article>
+
+      <article class="archive-details">
+        <div class="archive-day-heading">
+          <h3>Event Details</h3>
+          <span>4 Teams</span>
+        </div>
+        <div class="detail-grid">
+          <div class="detail-card">
+            <i class="fa-solid fa-gem"></i>
+            <h4>Core Defense</h4>
+            <p>Each island had a Core acting as the team's life source. Protecting it was the main objective.</p>
+          </div>
+          <div class="detail-card">
+            <i class="fa-solid fa-heart-pulse"></i>
+            <h4>Respawns</h4>
+            <p>Players could respawn while their Core survived. Once it fell, every fight became final.</p>
+          </div>
+          <div class="detail-card">
+            <i class="fa-brands fa-discord"></i>
+            <h4>Community POVs</h4>
+            <p>Players can send screenshots and POV clips through Discord so the archive can keep growing.</p>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <footer id="footer">
+    <div class="footer-credit">
+      <p class="copyright"><i class="fa-copyright"></i> 2026 <span class="server-name-footer">Orvonex Events</span>.</p>
+      <p class="creator-line">Coded by <a href="https://www.youtube.com/@Mubloxi" target="_blank" rel="noopener noreferrer" class="creator-link"><i class="fa-solid fa-code"></i> Mu_bloxi</a></p>
+      <a href="privacy-policy.html" class="footer-policy">Privacy Policy</a>
+    </div>
+    <div class="social-links">
+      <a href="https://discord.gg/vZqpkRBcTK" class="link discord-link-footer" title="Join our Discord"><i class="fa-brands fa-discord"></i></a>
+      <a href="https://www.youtube.com/@Mubloxi" target="_blank" rel="noopener noreferrer" class="link youtube-link-footer" title="Mu_bloxi on YouTube"><i class="fa-brands fa-youtube"></i></a>
+      <a href="https://modrinth.com/user/Mu_bloxi" target="_blank" rel="noopener noreferrer" class="link modrinth-link-footer" title="Mu_bloxi on Modrinth"><img src="images/modrinth.svg" alt="Modrinth"></a>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
